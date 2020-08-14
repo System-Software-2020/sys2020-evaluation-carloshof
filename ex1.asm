@@ -23,10 +23,10 @@ main:
         push ebp                
         mov ebp, esp
         push 6                 
-        push p1
+        push p1x`
         push 1
         call write
-        add esp, 8
+        add esp, 12
         mov eax, 0              
         mov esp, ebp            
         pop ebp
